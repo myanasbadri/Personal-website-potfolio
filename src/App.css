@@ -59,7 +59,7 @@ h1,h2,h3,h4,h5,h5{
     transform: rotate(360deg);
   }
 }
-/*===========nav bar================*/
+/*-nav bar-*/
 .logo-1{
   color: #fff;
   font-size: 30px;
@@ -137,23 +137,6 @@ span.navbar-text{
   border:1px solid rgba(255, 255, 255, 0.5) ;
   margin-right:10px ;
 }
-/*.social-icon a::before{
-  content: "";
-  width: 42px;
-  height: 42px;
-  background-color: #fff;
-  border-radius: 50%;
-  transform:scale(0);
-  transition: 0.3s ease-in-out;
-}
-.social-icon a:hover::before{
-  transform: scale(1);
-}
-.social-icon a img{
-  width: 40%;
-  z-index: 1;
-  transition: 0.3s ease-in-out;
-}*/
 .social-icon a:hover{
   background-color: #fff;
   color: #000;
@@ -240,7 +223,7 @@ span.navbar-text{
 .nav.navbar .navbar-toggler[aria=expanded="true"] .navbar-toggler-icon{
   border-color: transparent;
 }
-/*------------------css of banner----------------------v 1*/
+/*------------------css of banner----------------------*/
 .banner{
   margin: 0;
   padding: 100px 0 100px 0;
@@ -389,7 +372,7 @@ span.navbar-text{
   display: inline-flex;
   margin: 10px;
 }
-/*================skill============*/
+/*skill*/
 /* src/Skills.css */
 .anas{
   background-color: black;
@@ -418,7 +401,6 @@ span.navbar-text{
   align-items: center;
   justify-content: center;
   transition: background-color 0.3s;
-  /*border: 1px solid #fff;*/
 }
 
 .skill-card:hover  {
@@ -512,9 +494,6 @@ span.navbar-text{
 }
 
 .cards_prof .info {
-  /*position: relative;
-  left:20%;
-  top: -50px;*/
   z-index: 3;
   color: white;
   opacity: 0;
