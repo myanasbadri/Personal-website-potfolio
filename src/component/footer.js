@@ -2,13 +2,21 @@ import navicon1 from '../assents/nav-icon1.svg';
 import navicon2 from '../assents/nav-icon2.svg';
 import navicon3 from '../assents/nav-icon3.svg';
 import navicon4 from '../assents/icons8-github.svg';
+import { useEffect } from 'react';
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 
 export const Footer =()=>{
+    useEffect(() => {
+        AOS.init({
+          duration: 2000,
+        });
+      }, []);
     return(
         <>
         <div className="footer">
-            <div className="container-footer">
+            <div className="container-footer" data-aos="zoom-in-down">
                 <h1>
                     Start a project
                 </h1>
@@ -22,12 +30,12 @@ export const Footer =()=>{
         </div>
         <div className="copyright text-center d-flex justify-content-center align-items-center">
                 <a href="#home" className="footer-home" >An aS</a>
-                <div className="container-copyright">
+                <div className="container-copyright" data-aos="zoom-in-right">
                     <p className='p-copy'>
                     Living, learning, & leveling up
                      one day at a time.
                     </p>
-                    <div className="myacconts">
+                    <div className="myacconts" data-aos="zoom-in-left">
                     <span className="navbar-text d-flex align-items-center justify-content-center" >
                         <div className="social-icon me-50">
                             <a href="#"><img src={navicon1} alt=""/></a>
@@ -37,6 +45,7 @@ export const Footer =()=>{
                         </div>
                     </span>
                     <p>Handcrafted by me <span>©</span> AnaS</p>
+                    <p>sidi bouzid</p>
 
 
 
