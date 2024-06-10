@@ -1,4 +1,5 @@
-/*default css*/
+/*default css */
+
 *{
   margin: 0;
   padding: 0;
@@ -16,7 +17,7 @@ body{
   color:#fff !important;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-h1,h2,h3,h4,h5,h5{
+h1,h2,h3,h4,h5{
   margin: 0;
   padding: 0;
   line-height: normal;
@@ -24,17 +25,12 @@ h1,h2,h3,h4,h5,h5{
 .App {
   text-align: center;
 }
-
+/*
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
   background-color: #282c34;
@@ -59,7 +55,8 @@ h1,h2,h3,h4,h5,h5{
     transform: rotate(360deg);
   }
 }
-/*-nav bar-*/
+/*-nav bar- */
+/*
 .logo-1{
   color: #fff;
   font-size: 30px;
@@ -223,7 +220,8 @@ span.navbar-text{
 .nav.navbar .navbar-toggler[aria=expanded="true"] .navbar-toggler-icon{
   border-color: transparent;
 }
-/*------------------css of banner----------------------*/
+
+/*------------------css of banner---------------------- */
 .banner{
   margin: 0;
   padding: 100px 0 100px 0;
@@ -296,7 +294,7 @@ span.navbar-text{
   background-color: #ffff;
   color:#121212;
 }
-/* --------------------------------src/Skills.css -------------------------------------------------------------*/
+/* --------------------------------src/Skills.css ------------------------------------------------------------- */
 
 .skills-container {
   color: white;
@@ -346,7 +344,7 @@ span.navbar-text{
 .lowfilled{
   background-color:#682768;
 }
-/*-------------------------card-------------------------------------___________------------------*/
+/*-------------------------card-------------------------------------___________------------------ */
 
 
 .card-show{
@@ -373,7 +371,6 @@ span.navbar-text{
   margin: 10px;
 }
 /*skill*/
-/* src/Skills.css */
 .anas{
   background-color: black;
   margin-top:-48px ;
@@ -558,7 +555,7 @@ span.navbar-text{
   width: 150px;
   height: 40px;
 }
-/*---------------style footer--*/
+/*---------------style footer-- */
 .footer{
   display: flex;
   align-items: center;
