@@ -17,22 +17,12 @@ const skills = [
   { name: 'Html & CSS', icon: <><FaHtml5 /> <FaCss3Alt /></> },
   { name: 'JavaScript', icon: <FaJs /> },
 ];
-/*sscroll
-const boxs = document.querySelectorAll('.as');
-const option ={
-  root:null;
-  rootMargin:'100px';
-}
-const observer =new IntersectionObserver((entries) =>{
-  el.taget.classList.toggle({data-aos="fade-right"},el.Intersecting)
-},option)
-/*end  */ 
 
 
 const Skills = () => {
   useEffect(() => {
     AOS.init({
-      duration: 2000,
+      duration: 3000,
     });
   }, []);
   return (
