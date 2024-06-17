@@ -68,7 +68,7 @@ export const Banner = () => {
             <button onClick={() => console.log("connect")}>Contact Me</button>
           </Col>
           <Col xs={12} md={6} xl={5} data-aos="fade-left">
-            <img src={face} alt="headerimg" />
+            <img src={face} className="img-fluid rounded mx-auto d-block" alt="headerimg" />
           </Col>
         </Row>
       </Container>
