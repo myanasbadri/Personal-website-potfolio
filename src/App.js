@@ -6,13 +6,14 @@ import Skills2 from './component/skills2';
 import Portfolio from './component/potfolio';
 import Footer from './component/footer';
 import 'animate.css';
+import Navbarr from './component/nav';
 
 
 
 function App() {
   return (
     <>
-    <NavBar />
+    <Navbarr/>
     <Banner/>
     <Skills2/>
     <Portfolio/>
