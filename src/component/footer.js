@@ -46,9 +46,6 @@ export const Footer =()=>{
                     </span>
                     <p>Handcrafted by me <span>©</span> AnaS</p>
                     <p>sidi bouzid</p>
-
-
-
                     </div>
 
                 </div>

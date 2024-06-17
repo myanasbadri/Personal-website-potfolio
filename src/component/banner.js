@@ -56,7 +56,7 @@ export const Banner = () => {
     <section className="banner" id="home">
       <Container>
         <Row className="align-items-center">
-          <Col xs={12} md={6} xl={7} data-aos="fade-right">
+          <Col xs={12} md={6} xl={7} data-aos="fade-up-right">
             <span className="tagline">
               Welcome to my Portfolio
             </span>
