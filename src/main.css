@@ -32,6 +32,7 @@ nav a {
 
 nav a:hover {
 	color: var(--secondaryColor);
+	border-bottom:2px solid #eee;
 }
 
 header .nav-btn {
