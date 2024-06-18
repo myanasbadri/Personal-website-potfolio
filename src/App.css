@@ -589,4 +589,21 @@ span.navbar-text{
 
 }
 
+.horizontal-line {
+  width: 100%;
+  height: 2px;
+  background-color: #ffffff; /* You can change the color */
+  margin: 20px 0; /* Adjust spacing as needed */
+}
+.copyright-anas{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+
+.copyright-anas .link-copy{
+  color: #fff;
+  margin-left: 20px;
+}
+
 

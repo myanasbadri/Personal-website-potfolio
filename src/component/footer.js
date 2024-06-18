@@ -31,10 +31,6 @@ export const Footer =()=>{
         <div className="copyright text-center d-flex justify-content-center align-items-center">
                 <a href="#home" className="footer-home" >An aS</a>
                 <div className="container-copyright" data-aos="zoom-in-right">
-                    <p className='p-copy'>
-                    Living, learning, & leveling up
-                     one day at a time.
-                    </p>
                     <div className="myacconts" data-aos="zoom-in-left">
                     <span className="navbar-text d-flex align-items-center justify-content-center" >
                         <div className="social-icon me-50">
@@ -43,9 +39,17 @@ export const Footer =()=>{
                             <a href="#"><img src={navicon3} alt=""/></a>
                             <a href="#"><img src={navicon4} alt=""/></a>
                         </div>
+                        
                     </span>
-                    <p>Handcrafted by me <span>©</span> AnaS</p>
-                    <p>sidi bouzid</p>
+                    <div className="horizontal-line"></div>
+                    </div>
+                    <div className='copyright-anas'>
+                        <ul>
+                            <il className='link-copy'>© 2024 AnaS. All rights reserved.</il>
+                            <il> <a href='#' className='link-copy'>Privacy Policy</a> </il>
+                            <il> <a href='#'className='link-copy'>Terms and Conditions</a> </il>
+                            <il> <a href='#'className='link-copy'>Cookie Policy</a> </il>
+                        </ul>
                     </div>
 
                 </div>
