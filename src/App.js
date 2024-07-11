@@ -1,6 +1,5 @@
 import './App.css';
 import * as React from 'react';
-import NavBar from './component/navbar';
 import Banner from './component/banner';
 import Skills2 from './component/skills2';
 import Portfolio from './component/potfolio';
